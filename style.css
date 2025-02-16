@@ -13,7 +13,7 @@
     background-color: #f8f9fa;
   }
 
-  .nav ul{
+  .logo ul{
     display: flex;
     justify-content: space-between;
     gap: 100px;
@@ -99,7 +99,7 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 1px;
   padding: 12px 30px;
   border: none;
@@ -117,6 +117,43 @@
 .learn-more:hover {
   opacity: 0.8;
 }
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #171717;
+  background-size: cover;
+  
+}
+
+.bellow {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 20%;
+  height: 20%;
+  margin-top: 100px;
+  
+}
+
+.below:hover {
+ 
+}
+
+.bellow:first-child {
+  background-color: white;
+  color: black;
+}
+
 
 
 
